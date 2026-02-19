@@ -38,19 +38,21 @@ state = "Haryana"
 zipcode = "122001"
 country = "India"
 
-## US Equal Opportunity questions
-# What is your ethnicity or race? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-ethnicity = "Asian"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
+# ==============================
+# Work Authorization
+# ==============================
 
-# How do you identify yourself? If left empty as "", tool will not answer the question. However, note that some companies make compulsory to be answered
-gender = "Male"                 # "Male", "Female", "Other", "Decline" or ""
+us_citizenship = "Non-citizen seeking work authorization"
+require_visa = "Yes"
 
-# Are you physically disabled or have a history/record of having a disability? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-disability_status = "No"      # "Yes", "No", "Decline"
+# ==============================
+# Diversity Information
+# ==============================
 
-veteran_status = "No"         # "Yes", "No", "Decline"
-##
-
+gender = "Decline"
+veteran_status = "No"
+disability_status = "No"
+ethnicity = "Decline"
 
 '''
 For string variables followed by comments with options, only use the answers from given options.
